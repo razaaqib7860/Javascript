@@ -4,7 +4,7 @@
 
 console.log(3 
     +
-     3) // code readability should be high
+     3) // code readability should be high better to write console.log(3+3)
 
 console.log("Hitesh")
 
@@ -19,7 +19,7 @@ let state;
 // string => ""
 // boolean => true/false
 // null => standalone value
-// undefined => 
+// undefined => you dont assign a value yet.
 // symbol => unique
 
 
