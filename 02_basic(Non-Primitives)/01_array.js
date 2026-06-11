@@ -1,33 +1,32 @@
 // array
-
 const myArr = [0, 1, 2, 3, 4, 5]
-// console.log(myArr[1]);
+// console.log(myArr[1]);   // we can access array element like this.
 
 const myHeors = ["shaktiman", "naagraj"]
-const myArr2 = new Array(1, 2, 3, 4)
+const myArr2 = new Array[1, 2, 3, 4]
 
 // Array methods
-// myArr.push(6)
-// myArr.push(7)
-// myArr.pop()
+myArr.push(6)   //add 6 in last of array
+myArr.push(7)
+myArr.pop()      // remove and return the last element of the array;
 
-// myArr.unshift(9)//add given number in front of the array(not productive as we have to shift all the array)
-// myArr.shift()//delete the first element 
+myArr.unshift(9)  //add given number in front of the array (not productive as we have to shift all the array)
+myArr.shift()     //delete the first element 
 
-// console.log(myArr.includes(9));//check wheather given number is in array or not(boolean)
-// console.log(myArr.indexOf(3));
+console.log(myArr.includes(9));  //check wheather given number is in array or not(boolean)
+console.log(myArr.indexOf(3));   // shows the index of element '3'
 
-// const newArr = myArr.join()//its join the array elements in single and convert it in string
+const newArr = myArr.join()      //its join the array elements in single and convert it in string
 
-// console.log(myArr);
-// console.log( newArr);
+console.log(myArr);
+console.log( newArr);
 
 
 // slice, splice
 
 console.log("A ", myArr);
 
-const myn1 = myArr.slice(1, 3)
+const myn1 = myArr.slice(1, 3)    // slice 
 
 console.log(myn1);
 console.log("B ", myArr);
