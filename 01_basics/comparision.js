@@ -23,6 +23,6 @@ console.log(undefined == 0);
 console.log(undefined > 0);
 console.log(undefined < 0);
 
-// === (strict check : dont only compare its also check the datatype)
+// === (###strict check : dont only compare its also check the datatype)
 
 console.log("2" === 2);
